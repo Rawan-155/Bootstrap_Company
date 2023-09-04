@@ -1,0 +1,93 @@
+:root{
+    --color1:#e27396;
+}
+/* fonts*/
+@font-face {
+    font-family:"montaserat";
+    src: url(montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"lato";
+    src: url(lato/Lato-Regular.ttf);
+}
+.mybgcolor{
+background-color: var(--color1) !important;
+}
+.fa-solid{
+    color: var(--color1) !important;
+}
+/* nav*/
+.mynav{
+    background-color: var(--color1) !important;
+    font-family: "montaserat";
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.navbar .nav-link{
+    color: white;
+    padding: 0.8rem 1rem !important;
+}
+.navbar .active, .navbar .nav-link:hover{
+    background-color: white !important;
+    color: var(--color1) !important;
+}
+.navbar-toggler:hover , .navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+    background-color: silver !important;
+}
+/* header*/
+header{
+    font-family: "montaserat";
+
+}
+header h1{
+    font-size:30px;
+    font-weight: normal;
+}
+/* h2 , p font*/
+#aboutfont h2 , #values h2, #service h2 , #portofolio h2 , #pricing h2 ,#contact h2 {
+    font-family: lato;
+    font-size: 20px!important;
+    font-weight: 600!important;
+}
+#aboutfont .paragraph , #values .paragraph , #servicefont {
+    font-family: lato;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+}
+.serv{
+    color: #818181;
+}
+.pric{
+    background-color: #e27396;  
+}
+#values span{
+    font-size: 15px;
+}
+#aboutfont .par ,#values .par{
+    font-size: 12px;
+    line-height: 20px;
+    color: #818181;
+}
+/* cards*/
+#cards{
+    width: 400px;
+}
+#card{
+    margin-left: 20px !important;
+}
+.card-header{
+    background-color: #e27396;
+    margin: 0px !important;
+ }
+/* carousel*/
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    background-color: #e27396 !important;
+    border: none !important;
+}
